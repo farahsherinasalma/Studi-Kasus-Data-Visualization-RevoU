@@ -1,0 +1,2 @@
+SELECT * FROM `bigquery-public-data.austin_bikeshare.bikeshare_trips`
+WHERE DATE(start_time) >= '2021-01-01'
